@@ -1,0 +1,36 @@
+In the first week of the course, I was introduced to fundamental Azure concepts by Mukesh SIR. The topics covered included:
+
+Azure Fundamentals: Azure is Microsoft's cloud computing platform offering various services like computing, storage, databases, and machine learning. It enables businesses and individuals to deploy and manage applications through Microsoft-managed data centers.
+
+Compute Service: This service allows deploying virtual machine applications with diverse compute resources and capabilities.
+
+Network Services: Azure provides features for connecting, managing virtual machines, monitoring gateway protocols, and includes firewall controls, load balancers, and monitoring tools.
+
+Inbound and Outbound Rule Creations: Setting up network security rules to control traffic to and from Azure Virtual Network resources, specifically virtual machines (VMs).
+
+IAM and Security Monitoring: IAM in Azure focuses on controlling resource access. Azure Active Directory (Azure AD) provides robust IAM capabilities. Security monitoring involves tracking resource usage and access for security purposes.
+
+RBAC - Role-Based Access Control: Azure's RBAC system allows controlling access to Azure resources based on predefined roles, ensuring proper authorization levels for users.
+
+In the second week, the course covered Azure Virtual Machine Features:
+
+Virtual Network (VNET): Azure VMs are deployed within VNETs, allowing the creation of isolated network segments to control traffic flow. Custom VNETs can be created based on specific segmentation needs.
+
+Network Security Groups (NSG): NSGs act as basic firewalls, permitting or denying specific traffic based on IP addresses, port ranges, and protocols.
+
+Public and Private IP Addresses: Azure VMs can have public IP addresses for internet connectivity and private IP addresses for communication within the VNET or with other resources in the same VNET.
+
+Network Security and VPN Gateway: Azure offers network security and VPN gateways for establishing secure connections to on-premises networks. Site-to-Site (S2S) or Point-to-Site (P2S) VPN connections can be set up, or Azure ExpressRoute can be used for dedicated, private connectivity.
+
+In the third week, the course focused on Azure Firewall, Network Security Group, Network Traffic, and Sentinel:
+
+Azure Firewall: It is a cloud-based managed network security service that acts as a centralized, highly available firewall-as-a-service, inspecting and filtering traffic at the network and application layer, providing protection against various threats and attacks.
+
+Network Security Group (NSG): NSGs are fundamental for controlling inbound and outbound traffic to and from Azure resources, associated with network interfaces, VMs, and subnets.
+
+Azure Sentinel: Azure Sentinel is a cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution. It employs advanced analytics and machine learning to identify and correlate security events and anomalies, facilitating effective threat detection and response. It also allows creating custom detection rules tailored to specific security requirements.
+
+In the fourth week, the course covered Wazuh Deployment in Ubuntu Azure Machine and Adding Azure Virtual Machine as Agents:
+
+Wazuh Deployment: Deploying Wazuh involves setting up a dedicated server or VM, choosing a compatible operating system (such as CentOS, Ubuntu, or Red Hat), installing the Wazuh manager, configuring settings, integrating with Elastic Stack for advanced data analysis and visualization, installing agents on servers for monitoring, registering agents with the manager, and customizing rules based on specific security needs.
+These topics provided a comprehensive understanding of Azure fundamentals, virtual machine features, network security, and advanced security solutions like Wazuh and Azure Sentinel.
